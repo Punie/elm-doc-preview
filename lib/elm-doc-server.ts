@@ -303,7 +303,7 @@ function buildApplicationDocs(manifest: Manifest, dir: string, elm: Elm, clean: 
     manifest["source-directories"].forEach(src => {
       const srcDir = path.resolve(src);
       importModules(srcDir, tmpDirSrc);
-      const elmJsonPath = path.resolve(src, "../elm.json");
+      const elmJsonPath = path.resolve(dir, "elm.json");
 
       if (fs.existsSync(elmJsonPath)) {
         try {
