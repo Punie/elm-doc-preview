@@ -1,10 +1,6 @@
 elm-stuff
 node_modules
 index.html
-static/js/elm.js
-static/css/elm-doc-preview.css
-lib/elm-doc-server.js
-lib/elm-doc-server.js.map
 *.swp
 *.swo
 *~
